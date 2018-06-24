@@ -1,0 +1,186 @@
+
+
+.zaglavljeSlike{
+	border:1px solid blue;
+	border-radius:20px;
+	width:60%;
+	font-size:15px;
+	background: rgba(0,0,2,0.2);
+}
+
+#update{
+	float:right;
+	cursor: pointer;
+}
+.koKomentarise{
+	color: red;
+}
+.komentari{
+	border:1px solid #009999;
+	border-radius:20px;
+	background: rgba(0,0,2,0.2);
+}
+.opisSlike{
+	font-size:20px;
+	color:#ff6633;
+	
+}
+.koKaciSl{
+	position:relative;
+	font-size:40px;
+	color:red;
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+}
+.utisci{
+	border:1px solid #009999;
+	border-radius:5px;
+	background: rgba(0,0,2,0.2);
+	height:auto;
+	padding:2px;
+	
+	
+}
+.utisak{
+	font-size:11px;
+	margin:2px;
+	padding:2px;
+	
+}
+.koKaciutisak{
+	font-size:15px;
+	margin:2px;
+	padding:2px;
+	
+}
+.formBrisanje{
+	float:right;
+	
+	
+}
+.dugmeBrisi{
+	border:1px solid #009999;
+	border-radius:5px;
+	
+}
+.zaNaslov{
+	border:1px solid #009999;
+	border-radius:5px;
+	background-color:#D3C8C8;
+	height:40px;
+	padding-top:15px;
+}
+#updateForm{
+	display:none;
+}
+#forma{
+	border:1px solid green;
+	border-radius:10px;
+	font-size:25px;
+	width:80%;
+	display:none;
+}
+#prikaz{
+	cursor: pointer;
+	font-size:40px;
+	color:red;
+	margin: 5px auto;
+}
+
+
+#glavni {
+	padding: 5px;
+	width: 99%;
+	margin: 2px auto;
+}
+#header {
+	height: 110px;
+	background-color:#B29191;
+	font-family: "Times New Roman", Times, serif;
+	
+}
+#content {
+	width: 78%;
+	float: left;
+	background-image:url("pozad.jpeg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sidebar {
+	width: 20%;
+	float: right;
+	background: #f0efef;
+	height:auto;
+}
+#footer {
+	clear: both;
+	background-color:#D3C8C8;
+	
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 980px) {
+	
+	#glavni {
+		width: 94%;
+	}
+	#content {
+		width: 64%;
+	}
+	#sidebar {
+		width: 30%;
+	}
+	
+}
+
+
+
+
+
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+
+	#content {
+		width: auto;
+		float: none;
+	}
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+	
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+	#header {
+		height: auto;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	#sidebar {
+		display: none;
+	}
+}
+
+#glavni {
+	width: 100%;
+	margin: auto;
+}
+
+#header, #content, #sidebar {
+	margin-bottom: 4px;
+}
+#glavni, #header, #content, #sidebar, #footer {
+	border: solid 1px #ccc;
+}
